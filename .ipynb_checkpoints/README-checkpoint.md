@@ -5,18 +5,18 @@ Module 12 Challenge: Credit Risk Classification
 
 The purpose of this analysis is to determine the ability of a machine learning model to identify the creditworthiness of borrowers.
 
-Two models were developed for this analysis. The first model utilized only a logistic regression model; the second model utilized a random oversampler model, followed by a logistic regression model. As the goal of both models is to predict loans that may be considered high-risk, both models were trained and tested on a dataset of historical lending activity from a peer-to-peer lending services company. The target of the dataset was the loan status; the features of the dataset included
-- loan size,
-- interest rate,
-- borrower income,
-- debt-to-income ratio,
-- number of accounts,
-- derogatory marks, and
-- total debt.
+Two models were developed for this analysis. The first model utilized only a logistic regression model; the second model utilized a random oversampler model, followed by a logistic regression model. As the goal of both models is to predict loans that may be considered high-risk, both models were trained and tested on a dataset of historical lending activity from a peer-to-peer lending services company. The target of the dataset was the loan status ('loan_status'); the features of the dataset included
+- loan size ('loan_size'),
+- interest rate ('interest_rate'),
+- borrower income ('borrower_income'),
+- debt-to-income ratio ('debt_to_income'),
+- number of accounts ('num_of_accounts'),
+- derogatory marks ('derogatory_marks'), and
+- total debt ('total_debt').
 
-In the original dataset, the value counts for 'loan status' were
-- 75036 healthy loans ('*0*'), and
-- 2500 high-risk loans ('*1*').
+In the original dataset, the value counts for 'loan_status' were
+- 75036 healthy loans ('0'), and
+- 2500 high-risk loans ('1').
 
 The result of the above value counts is a heavily imbalanced dataset.
 
