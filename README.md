@@ -52,6 +52,7 @@ Based on the above model results, the second machine learning model, with its re
 
 Incorrectly predicting a high-risk loan (i.e. false negative) could have devastating effects on a loan company. As such, a predictive model with high recall (low number of false negatives) in predicting high-risk loans ('1') is of the utmost importance. The second machine learning model shows perfect recall in predicting high-risk loans. While the model may only have a precision of 0.87 in predicting high-risk loans, incorrectly predicting a healthy loan (i.e. false positive), in this particular case, is of much less significance. I, therefore, recommend using the second model, with its resampled (balanced) dataset, for predicting high-risk loans.
 
-## Other information
+## Other Information
 - All work can be found in the [credit_risk_resampling.ipynb](https://github.com/julianritchey/supervised-learning-homework/blob/main/credit_risk_resampling.ipynb) file.
 - All data used in this assignment can be found in the [Resources](https://github.com/julianritchey/supervised-learning-homework/tree/main/Resources) folder.
+- Answers to the assignment questions may be found after code blocks 12 and 18 in the [credit_risk_resampling.ipynb](https://github.com/julianritchey/supervised-learning-homework/blob/main/credit_risk_resampling.ipynb) file.
